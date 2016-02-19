@@ -15,7 +15,7 @@ I believe libraries exist for each one of these steps, through step 5. Step 6 is
 
 Hopefully we can make it through step 5 before the hackathon.  If we don't, we probably won't make it.  We have three critical pieces, at steps 1,2, and 4, and they need to be successfully integrated before we can rest easy.
 
-We need to assign roles to each of us. 
+# Team Roles
 - Sam: you're our salesman, moral support, and resident entrepreneur.  Mona and I are building a pair of binoculars; how do you want to look at the world with them?  Help us come up with ways to apply this dashboard.  If we have lots of ideas, then if Mona and I do our job right we could implement all of them easily.
 - Mona: help me build this, and come up with ways to use it.  Claim one of the first few steps (1 or 2) and blow it out of the water.  I'll take the other one.
 - me: build this, and come up with ways to use it.  I'll take whichever step you don't, do it, and then we'll both work on what's left when those are done.  
@@ -26,6 +26,7 @@ Part 1 - Building Dashboards
 - dashboard + localhost web server: https://pypi.python.org/pypi/django-dash
 - simple python web server: https://fragments.turtlemeat.com/pythonwebserver.php
 - simple python web server: http://www.cherrypy.org/
+- Django local website (this is what I used so far): http://blogs.msdn.com/b/cdndevs/archive/2014/10/27/part-6-get-started-with-python-build-your-first-django-application-in-ptvs.aspx
 
 Part 2 - Analyzing and Plotting Data
 - Control Chart (almost exactly what we need for the first quadrant): http://stackoverflow.com/questions/9962114/control-charts-in-python

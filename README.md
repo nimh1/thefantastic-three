@@ -28,6 +28,7 @@ Part 1 - Building Dashboards
 - simple python web server: http://www.cherrypy.org/
 
 Part 2 - Analyzing and Plotting Data
+- Control Chart (almost exactly what we need for the first quadrant): http://stackoverflow.com/questions/9962114/control-charts-in-python
 - data plotting: http://stackoverflow.com/questions/915940/python-plotting-libraries (see all answers)
 - data plotting: http://matplotlib.org/
 - similar question asked here: http://stackoverflow.com/questions/7822064/creating-charts-graphs-with-python

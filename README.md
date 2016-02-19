@@ -6,8 +6,8 @@ Building frameworks and developing code for use in the upcoming event.
 my plan of attack is- attack!
 
 I believe libraries exist for each one of these steps, through step 5. Step 6 is where we as students actually add value.  We're coming up with a unique way to look at the world, and using a dashboard system they may or may not have heard of.
-- 1. first thing to do is get the dashboard working.  (see folder with dashboard info for a conceptual template)
-- 2. second thing is to get the data analysis working; this is where we use R or python data processing or matlab or octave.
+- 1. first thing to do is get the dashboard display working.  
+- 2. second thing is to get the data analysis and chart generation working; this is where we use R or python data processing or matlab or octave.  (see folder with dashboard info for a conceptual template of what it should look like)
 - 3. then tie the two pieces together.  Make the dashboard software display the charts we produce.  We'll need to coordinate the chart formats.  Maybe a simple .jpg
 - 4. figure out where we're getting the data from.  This is last, because it's something that might change once we get to the event.  We probably want to create a python package for each data collection system, and make sure there's a standard input and output format.
 - 5. tie everything together.  Use one of our potential concepts and see if the implementation works.

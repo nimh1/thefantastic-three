@@ -27,7 +27,7 @@
     <Compile Include="data_analysis\control_chart.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="data_analysis\pareto.py">
+    <Compile Include="data_analysis\pareto_chart.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="misc_cool_stuff\cherrypy_test.py">

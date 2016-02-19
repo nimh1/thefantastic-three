@@ -25,6 +25,12 @@ We need to assign roles to each of us.
 Part 1 - Building Dashboards
 - dashboard + localhost web server: https://pypi.python.org/pypi/django-dash
 - simple python web server: https://fragments.turtlemeat.com/pythonwebserver.php
+- simple python web server: http://www.cherrypy.org/
+
+Part 2 - Analyzing and Plotting Data
+- data plotting: http://stackoverflow.com/questions/915940/python-plotting-libraries (see all answers)
+- data plotting: http://matplotlib.org/
+- similar question asked here: http://stackoverflow.com/questions/7822064/creating-charts-graphs-with-python
 
 Part 4 - Data Collection
  - Web Scraping: http://scrapy.org/

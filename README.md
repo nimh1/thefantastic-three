@@ -22,6 +22,8 @@ Hopefully we can make it through step 5 before the hackathon.  If we don't, we p
 
 # Resources: 
 
+Looks like we're gonna want to use python - Anaconda for python 2.7 looks like the best bet.
+
 Part 1 - Building Dashboards
 - dashboard + localhost web server: https://pypi.python.org/pypi/django-dash
 - simple python web server: https://fragments.turtlemeat.com/pythonwebserver.php

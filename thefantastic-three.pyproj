@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3f3940b9-2975-41ab-9c40-ae589b4ea2b2}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>core.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{681e1da1-3ead-3979-9bc3-ed255843deb0}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="core.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_analysis\control_chart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_analysis\pareto.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_cool_stuff\cherrypy_test.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_analysis\histogram.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="data_analysis\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_cool_stuff\scatter_plot.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="misc_cool_stuff\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{681e1da1-3ead-3979-9bc3-ed255843deb0}\2.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="data_analysis\" />
+    <Folder Include="misc_cool_stuff\" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

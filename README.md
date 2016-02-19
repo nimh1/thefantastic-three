@@ -31,7 +31,6 @@ Part 1 - Building Dashboards
 - Django local website (this is what I used so far): http://blogs.msdn.com/b/cdndevs/archive/2014/10/27/part-6-get-started-with-python-build-your-first-django-application-in-ptvs.aspx
 
 Part 2 - Analyzing and Plotting Data
-- this is an even better control chart (I think): https://github.com/bwghughes/controlchart
 - Control Chart (almost exactly what we need for the first quadrant): http://stackoverflow.com/questions/9962114/control-charts-in-python
 - data plotting: http://stackoverflow.com/questions/915940/python-plotting-libraries (see all answers)
 - data plotting: http://matplotlib.org/

@@ -23,7 +23,8 @@ We need to assign roles to each of us.
 # Resources: 
 
 Part 1 - Building Dashboards
-- https://pypi.python.org/pypi/django-dash
+- dashboard + localhost web server: https://pypi.python.org/pypi/django-dash
+- simple python web server: https://fragments.turtlemeat.com/pythonwebserver.php
 
 Part 4 - Data Collection
  - Web Scraping: http://scrapy.org/
